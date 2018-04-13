@@ -96,6 +96,7 @@ $report_type = 'changelog';
 
 $json_decoded = retrieveJiraFilterData($report_type);
 $fixVersions = extractFixVersions($json_decoded);
+$currentFixVersion = isset($_GET["fixVersion"]) ? htmlspecialchars($_GET["fixVersion"]) : 'all';
 $moreInformationMap = extractMoreInformationMap($json_decoded);
 $keyToMoreInfo = $moreInformationMap['more_info'];
 $keyToBreakingChanges = $moreInformationMap['breaking'];
@@ -123,11 +124,11 @@ $keyToDeprecations = $moreInformationMap['deprecation'];
                         <tr>
                             <td>
                                 <select id="fixVersionFilter" style="margin-right: 20px">
-                                    <option selected>All Versions</option>
+                                    <option <?=$currentFixVersion == 'all' ? 'selected' : '' ?>>All Versions</option>
                                     <?php
                                     foreach ($fixVersions as &$value) {
                                         ?>
-                                        <option><?= $value ?></option>
+                                        <option <?=$currentFixVersion == $value ? 'selected' : '' ?>><?= $value ?></option>
                                         <?php
                                     }
                                     ?>
@@ -161,6 +162,35 @@ $keyToDeprecations = $moreInformationMap['deprecation'];
                 </span>
                 <span class='aui-lozenge-error' style='padding: 1px; border-radius: 2px'>B</span> Breaking Changes
             </div>
+            <div class="note" style="clear: both;display: none" id="fixVersion_info_17_1_0">
+                <p>Release 17.1.0 Overview</p>
+
+                <ul>
+                    <li>
+                        AG-1626 – <a href="../javascript-grid-filter-quick/">Quick filter</a> now filters
+                        using multiple words, eg search for “Tony Ireland” to bring back all rows with “Tony” in the name column and “Ireland” in the country column.
+                    </li>
+                    <li>
+                        AG-1405 – Support for <a href="../javascript-grid-row-height/#auto-row-height">
+                        automatic text wrapping</a>.
+                    </li>
+                    <li>
+                        AG-1682 - New guides for connecting
+                        <a href="../oracle-server-side-operations/">Enterprise Row Model to Oracle</a> and
+                        <a href="../spark-server-side-operations/">Enterprise Row Model to Apache Spark</a>.
+                    </li>
+                    <li>
+                        AG-1675 – BREAKING CHANGE - The filter model for the set filter was changed to be consistent with other filter models. For backwards compatibility, this change can be toggled off using the grid property <code>enableOldSetFilterModel</code>.
+                    </li>
+                </ul>
+
+            </div>
+            <!-- For testing purposes only -->
+<!--            <div class="note" style="clear: both;display: none" id="fixVersion_info_16_0_0">-->
+<!--                <p>Release Notes for Version 16.0.0</p>-->
+<!---->
+<!--                <p>Blah blah blah</p>-->
+<!--            </div>-->
             <div>
                 <table class="aui" id="<?= 'content_' . $report_type ?>">
                     <tbody>
