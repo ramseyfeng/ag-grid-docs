@@ -64,6 +64,11 @@ meta_and_links("Demo of ag-Grid: Datagrid with 63 features and great performance
                         <span id="messageText"></span>
                     </span>
 
+                    <span id="features-overlay">
+                        <button @click="toggleTutorial">Walk me through the features</button>
+                        <router-view></router-view>
+                    </span>
+
                 </div>
             </div>
 
@@ -115,5 +120,8 @@ meta_and_links("Demo of ag-Grid: Datagrid with 63 features and great performance
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 <script src="dist/homepage.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+<script src="tutorial.js"></script>
 </body>
 </html>
