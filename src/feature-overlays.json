@@ -36,8 +36,9 @@
             },
             {
                 "content": "You can also select value aggregation function for a given column from the column menu (visible on mouse over)",
-                "markers":
+                "markers": [
                     "#myGrid > div > div.ag-root-wrapper-body > div.ag-root.ag-font-style > div.ag-header > div.ag-header-viewport > div > div:nth-child(2) > div:nth-child(6) > div.ag-cell-label-container.ag-header-cell-sorted-none > span"
+                ]
             }
         ]
     },

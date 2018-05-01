@@ -64,14 +64,15 @@ meta_and_links("Demo of ag-Grid: Datagrid with 63 features and great performance
                         <span id="messageText"></span>
                     </span>
 
-                    <span id="features-overlay">
-                        <button @click="toggleTutorial">Walk me through the features</button>
-                        <router-view></router-view>
-                    </span>
 
                 </div>
             </div>
 
+        </div>
+
+        <div id="features-overlay">
+            <a href="#" @click.prevent="toggleTutorial">Walk me through the features</a>
+            <router-view></router-view>
         </div>
 
         <div>

@@ -11,9 +11,9 @@ fetch('feature-overlays.json').then((response) => response.json()).then( data =>
             <div class="modal-content">
               <div class="modal-header">
                 <h5 class="modal-title">Modal title</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
+
+                <router-link to="/" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></router-link>
+
               </div>
               <div class="modal-body">
                 <h3>{{title}}</h3>
@@ -31,8 +31,20 @@ fetch('feature-overlays.json').then((response) => response.json()).then( data =>
     `, 
         methods: {
             markerStyle: function(selector) {
-                console.log(selector)
-                return { border: "2px solid red" }
+                var rect = document.querySelector(selector).getBoundingClientRect();
+                var padding = 10;
+
+                return { 
+                    border: "2px solid red", 
+                    borderRadius: "50%",
+                    position: "fixed",
+                    top: rect.top - padding + "px",
+                    left: rect.left - padding + "px",
+                    width: rect.width + padding * 2 + "px",
+                    height: rect.height + padding * 2 + "px",
+                    zIndex: 10000,
+                    pointerEvents: "none"
+                }
             }
         },
         computed: {

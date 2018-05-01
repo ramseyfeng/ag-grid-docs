@@ -64,11 +64,18 @@ button[disabled] {
 #example-toolbar {
     @extend .container-fluid;
 
+    #features-overlay {
+        > a {
+            @extend .text-right;
+            line-height: 3rem;
+        }
+    }
+
     > div {
         @extend .full-width-row, .row;
 
         > div:first-child {
-            @extend .col-md-9;
+            @extend .col-md-6;
         }
 
         > div:last-child {
