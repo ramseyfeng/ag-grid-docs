@@ -5,7 +5,7 @@
         "slides": [
             {
                 "content": "ag-Grid is designed to be performant with large amounts of data. To stress-test the demo, select '100,000 rows' from the Data dropdown",
-                "markers": ["#example-toolbar > div > div:nth-child(1) > div > div > select:nth-child(3)"]
+                "markers": ["#data-size"]
             }
         ]
     },

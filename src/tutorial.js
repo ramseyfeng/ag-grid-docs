@@ -3,8 +3,16 @@ fetch('feature-overlays.json').then((response) => response.json()).then( data =>
     const Bar = { template: `
     <div>
     <div id="markers">
-      <div v-for="marker in markers" v-bind:style="markerStyle(marker)">
-      </div>
+         <svg id="mySVG" width="100vw" height="100vh" style="position: fixed; top: 0; left: 0; z-index: 1; pointer-events: none;">
+            <defs>
+                <mask id="myMask" x="0" y="0" width="100vw" height="100vh" >
+                    <rect width="100vw" height="100vh" fill="white"/>
+                    <rect v-for="marker in markers" v-bind:style="markerStyle(marker)" fill="black" rx="50%"/>
+                </mask>
+            </defs>
+
+            <rect x="0" y="0" width="100vw" height="100vh" fill="rgba(0, 0, 0, 0.5)" mask="url(#myMask)"></rect>
+        </svg>
     </div>
     <div class="modal fade show" tabindex="-1" role="dialog" style="display: block; pointer-events: none">
           <div class="modal-dialog modal-dialog-centered" role="document">
@@ -32,18 +40,13 @@ fetch('feature-overlays.json').then((response) => response.json()).then( data =>
         methods: {
             markerStyle: function(selector) {
                 var rect = document.querySelector(selector).getBoundingClientRect();
-                var padding = 10;
+                var padding = 20;
 
                 return { 
-                    border: "2px solid red", 
-                    borderRadius: "50%",
-                    position: "fixed",
-                    top: rect.top - padding + "px",
-                    left: rect.left - padding + "px",
+                    y: rect.top - padding + "px",
+                    x: rect.left - padding + "px",
                     width: rect.width + padding * 2 + "px",
                     height: rect.height + padding * 2 + "px",
-                    zIndex: 10000,
-                    pointerEvents: "none"
                 }
             }
         },
