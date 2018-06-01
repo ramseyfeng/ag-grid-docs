@@ -8,8 +8,9 @@ include '../landing-pages/header.php';
 <div>
 
     <h1> Our React Datagrid </h1>
+    <hr>
     
-    <p class="lead">ag-Grid is designed to integrate deeply into the React. Use our grid as a React component to quickly add a datagrid or datatables to your application. We support the latest version of React and always quickly release when new versions come out. This page covers the versions of our product, some of the key benefits and outlines the resources available to quickly add a datgrid or datatable to your React application.	
+    <p class="lead">ag-Grid is designed to integrate deeply into React. Use our grid as a React component to quickly add a datagrid or datatables to your application. We support the latest version - React 16 - and always quickly release when new versions come out. This page covers the versions of our product, some of the key benefits and outlines the resources available to quickly add a datgrid or datatable to your React application.	
 </p>
 
 <h2>Two Versions - Which is the Best Fit for you?</h2>
@@ -19,15 +20,17 @@ include '../landing-pages/header.php';
         <div class="col-md-6">
             <h3>ag-Grid Community Edition</h3>
             <p>
-                Free and Open Source datagrid designed to meet all of your core requirements. Available via Github or NPM. To keep up to date with our releases, you can join our mailing list or follow us on Medium.
+                Free and Open Source datagrid designed to meet all of your core requirements. Available via Github or NPM. To keep up to date with our releases, you can join our mailing list or follow us on <a href="https://medium.com/ag-grid">Medium.</a>
             </p>
+            <a href="https://github.com/ag-grid"><button type="button" class="btn btn-primary btn-lg">Community Edition</button></a>
         </div>
 
         <div class="col-md-6">
             <h3>ag-Grid Enterprise Edition</h3>
             <p>
-                Built on ag-Grid Community Edition, our commercial version contains more features designed for Enterprise Applications. This version also includes Technical Support and Feature Requests. Sign up now for a free two month, fully functional trial.
+                Built on ag-Grid CE, our commercial version contains more features designed for Enterprise Applications. This version also includes Technical Support and Feature Requests. Sign up now for a free two month, fully functional trial.
             </p>
+              <a href="https://www.ag-grid.com/start-trial.php"><button type="button" class="btn btn-primary btn-lg">Start Free Trial</button></a>
         </div>
     </div>
 </div>
@@ -89,7 +92,7 @@ include '../landing-pages/header.php';
 
 <h2>How Do I Get Started?</h2>
 
-<p>We have put together a detailed guide on <a href="../react-getting-started/">Getting Started with React and ag-Grid</a>. This covers getting up and running with ag-Grid Community and then adding ag-Grid Enterprise.</p>
+<p>We have put together a detailed React tutorial on <a href="../react-getting-started/">Getting Started with React and ag-Grid</a>. This covers getting up and running with ag-Grid Community and then adding ag-Grid Enterprise.</p>
 
 <h2>What About Detailed Guides and Examples?</h2>
 
@@ -104,5 +107,8 @@ include '../landing-pages/header.php';
 <p>In addition to the above, you can find a <a href="../example-react-redux/">live example of ag-Grid / Redux integration</a> in our examples section.</p>
 
 </div>
+
+<a href="start-trial.php"><button type="button" class="btn btn-primary btn-lg" style="margin-left: 400px;padding: 13px;margin-bottom: -30px">Start Your Free Trial</button></a>
+<a href="https://www.ag-grid.com/angular-getting-started/"><button type="button" class="btn btn-primary btn-lg" style="margin-left: 150px;margin-bottom: -30px;padding: 13px">Learn More</button></a>
 
 <?php include '../landing-pages/footer.php'; ?>
