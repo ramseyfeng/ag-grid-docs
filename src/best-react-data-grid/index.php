@@ -108,7 +108,8 @@ include '../landing-pages/header.php';
 
 </div>
 
-<a href="start-trial.php"><button type="button" class="btn btn-primary btn-lg" style="margin-left: 400px;padding: 13px;margin-bottom: -30px">Start Your Free Trial</button></a>
+<a href="https://www.ag-grid.com/start-trial.php"><button type="button" class="btn btn-primary btn-lg" style="margin-left: 400px;padding: 13px;margin-bottom: -30px">Start Your Free Trial</button></a>
 <a href="https://www.ag-grid.com/angular-getting-started/"><button type="button" class="btn btn-primary btn-lg" style="margin-left: 150px;margin-bottom: -30px;padding: 13px">Learn More</button></a>
+
 
 <?php include '../landing-pages/footer.php'; ?>
