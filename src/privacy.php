@@ -136,9 +136,8 @@ We will only use your personal data for a purpose it was collected for or a reas
  <br><br>
 We may process your personal data without your knowledge or consent where this is required or permitted by law.
 <br><br>
-We do not carry out automated decision making or any type of automated profiling. [NOTE DELETE THIS IF YOU DO CARRY OUT AUTOMATED DECISION MAKING AND INSERT DETAILS OF THE AUTOMATED DECISION MAKING AND PROVIDE MEANINGFUL INFORMATION ABOUT THE LOGIC INVOLVED AS WELL AS THE SIGNIFICANCE AND THE ENVISAGED CONSEQUENCES OF SUCH PROCESSING FOR THE DATA SUBJECT – SEE THE VIDEO ON AUTMATED PROCESSING]
+We do not carry out automated decision making or any type of automated profiling.
 
-[INSERT CATEGORY OF DATA] that includes data about [INSERT WHAT THE DATA IS ABOUT]. We process this data to [INSERT YOUR PURPOSE FOR PROCESSING]. Our lawful ground of processing is [INSERT LAWFUL GROUND OF PROCESSING] [which in this case are [INSERT LEGITIMATE INTERESTS] ] [NOTE: DELETE THE LAST SECTION OF THIS BULLET POINT IF YOU ARE RELYING ON A GROUND OTHER THAN LEGITIMATE INTERESTS]
 </p>
 </li>
 	<br><br>
@@ -162,7 +161,7 @@ Under the Privacy and Electronic Communications Regulations, we may send you mar
  <br><br>
 Before we share your personal data with any third party for their own marketing purposes we will get your express consent.
 <br><br>
-You can ask us or third parties to stop sending you marketing messages at any time [by logging into the website and checking or unchecking relevant boxes to adjust your marketing preferences] OR [by following the opt-out links on any marketing message sent to you or] OR by emailing us at <a href="mailto:info@ag-grid.com" target="_top">info@ag-grid.com</a> at any time.[AMEND AS APPROPRIATE]
+You can ask us or third parties to stop sending you marketing messages at any time [by logging into the website and checking or unchecking relevant boxes to adjust your marketing preferences] OR [by following the opt-out links on any marketing message sent to you or] OR by emailing us at <a href="mailto:info@ag-grid.com" target="_top">info@ag-grid.com</a> at any time.
 <br><br>
 If you opt out of receiving marketing communications this opt-out does not apply to personal data provided as a result of other transactions, such as purchases, warranty registrations etc. 
 
@@ -179,8 +178,6 @@ Service providers who provide IT and system administration services.
 Professional advisers including lawyers, bankers, auditors and insurers
 <br><br>
 Government bodies that require us to report processing activities.
-<br><br>
-[INSERT DETAILS OF ANY OTHER THIRD PARTIES, FOR EXAMPLE, MARKET RESEARCHERS, FRAUD PREVENTION AGENCIES, PRICE COMPARISON SITES ETC].
 <br><br>
 Third parties to whom we sell, transfer, or merge parts of our business or our assets. 
 <br><br>We require all third parties to whom we transfer your data to respect the security of your personal data and to treat it in accordance with the law. We only allow such third parties to process your personal data for specified purposes and in accordance with our instructions.

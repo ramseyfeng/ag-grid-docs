@@ -79,6 +79,18 @@ If you want to check or change what types of cookies you accept, this can usuall
 <br><br>
 <strong>Functionality cookies |</strong> These cookies allow our website to remember choices you make and provide enhanced features. For instance, we may be able to provide you with news or updates relevant to the services you use. They may also be used to provide services you have requested such as viewing a video or commenting on a blog. The information these cookies collect is usually anonymised.
 <br><br>
-[Please note that third parties who advertise on our website (including, for example, advertising networks and providers of external services like web traffic analysis services) may also use cookies, over which we have no control. These cookies are likely to be analytical/performance cookies or targeting cookies] [NOTE: DELETE THIS PARAGRAPH IF YOU DO NOT ALLOW THIRD PARTIES TO ADVERTISE ON YOUR SITE]
 </p>
 </div>
+
+</html> 
+
+
+
+        </section>
+    </div>
+</div>
+
+<?php include_once("./includes/footer.php"); ?>
+<?php include_once("./includes/analytics.php"); ?>
+</body>
+</html>

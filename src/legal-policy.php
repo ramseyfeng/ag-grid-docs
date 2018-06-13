@@ -35,7 +35,7 @@ meta_and_links("Our Mission, Our Principles and Our Team at ag-Grid", "About ag-
 
 <p>Welcome to ag-Grid's legal policies page.</p>
 
-<p>Here you can navigate through our legal policies, including our <strong>Privacy Policy</strong>, <strong>Cookies Policy</strong> and <strong>Terms of Use</strong>.</p>
+<p>Here you can navigate through our legal policies, including our <strong>Privacy Policy</strong> and <strong>Cookies Policy</strong>.
 
 <hr>
 </body>

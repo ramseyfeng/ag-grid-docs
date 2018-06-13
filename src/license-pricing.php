@@ -203,7 +203,7 @@ We offer three flavors &ndash; <strong>Single Application Developer</strong>, <s
 
                 <h2>Community / Enterprise Support</h2>
 
-                <p>Purchasing a license for ag-Grid Enterprise grands you access to our ticketing system, which means guaranteed response in a 24 hour during weekdays.</p>
+                <p>Purchasing a license for ag-Grid Enterprise grants you access to our ticketing system, which means guaranteed response in a 24 hour during weekdays.</p>
 
                 <p>If you are using the community version of ag-Grid, you can follow the <a href="http://stackoverflow.com/questions/tagged/ag-grid">Stack Overflow <code>ag-grid</code> tag</a>. 
                 We also accept bug reports with reproduction in the <a href="https://github.com/ag-grid/ag-grid/issues">ag-grid/ag-grid GitHub repository issues - follow the issue template</a>.</p>
