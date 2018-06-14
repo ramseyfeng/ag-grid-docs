@@ -1,6 +1,6 @@
 <?php
 $pageTitle = "Angular Datagrid | Packed with features and performance.";
-$pageDescription = "ag-Grid is a feature rich datagrid designed for Angular 5.2.10. Version 17.1 is out now. Easily integrate into your application to deliver filtering, grouping, aggregation, pivoting and much more with the performance that you expect. Our Community version is free and open source or take a 2 month trial of ag-Grid Enterprise";
+$pageDescription = "ag-Grid is a feature rich datagrid designed for Angular. Version 18 is out now. Easily integrate into your application to deliver filtering, grouping, aggregation, pivoting and much more with the performance that you expect. Our Community version is free and open source or take a 2 month trial of ag-Grid Enterprise";
 $pageGroup = "basics";
 include '../landing-pages/header.php';
 ?>
@@ -23,7 +23,7 @@ include '../landing-pages/header.php';
                 <p>
                     Free and Open Source datagrid designed to meet all of your core requirements. Available via Github or NPM. To keep up to date with our releases, you can join our mailing list or follow us on Medium.
                 </p>
-                <a href="https://github.com/ag-grid"><button type="button" class="btn btn-primary btn-lg">Community Edition</button></a>
+                <a href="https://github.com/ag-grid/ag-grid-angular"><button type="button" class="btn btn-primary btn-lg">Community Edition</button></a>
             </div>
 
             <div class="col-md-6">

@@ -11,7 +11,7 @@ $version = 'latest';
 <head>
 <?php
 $title = 'ag-Grid: Datagrid packed with features that your users need with the performance you expect.';
-$description = 'ag-Grid is feature rich datagrid designed for the major JavaScript Frameworks. Version 17 is out now. Easily integrate into your application to deliver filtering, grouping, aggregation, pivoting and much more with the performance that your users expect. Our Community version is free and open source or take a 2 month trial of ag-Grid Enterprise.';
+$description = 'ag-Grid is feature rich datagrid designed for the major JavaScript Frameworks. Version 18 is out now. Easily integrate into your application to deliver filtering, grouping, aggregation, pivoting and much more with the performance that your users expect. Our Community version is free and open source or take a 2 month trial of ag-Grid Enterprise.';
 meta_and_links($title, $keywords, $description, false);
 ?>
 <link rel="stylesheet" href="dist/homepage.css">
@@ -59,7 +59,7 @@ meta_and_links($title, $keywords, $description, false);
                 </ul>
 
                 <a href="/javascript-grid-getting-started/" id="free-cta">Use Free Version</a>
-                <a href="/start-trial.php" id="enterprise-cta">Try Enterprise Version</a>
+                <a href="/start-trial.php" id="enterprise-cta">Trial Enterprise Version</a>
             </div>
         </section>
     </header>
