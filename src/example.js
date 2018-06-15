@@ -133,7 +133,9 @@ var gridOptions = {
     //     suppressMultiRangeSelection: true,
     rowGroupPanelShow: 'always', // on of ['always','onlyWhenGrouping']
     pivotPanelShow: 'always', // on of ['always','onlyWhenPivoting']
-    pivotTotals: true,
+    pivotColumnGroupTotals: 'before',
+    pivotRowTotals: 'before',
+    // suppressRowTransform: true,
     //minColWidth: 50,
     //maxColWidth: 300,
 //    rowBuffer: 10,
@@ -255,6 +257,9 @@ var gridOptions = {
     onColumnVisible: function (event) {
         console.log("Callback onColumnVisible:", event);
     },
+    onColumnResized: function (event) {
+        console.log("Callback onColumnResized:", event);
+    },
     onCellValueChanged: function (params) {
         console.log("Callback onCellValueChanged:", params);
     },
@@ -271,6 +276,12 @@ var gridOptions = {
     },
     onCellFocused: function (params) {
         // console.log('Callback onCellFocused: ' + params.rowIndex + " - " + params.colIndex);
+    },
+    onPasteStart: function (params) {
+        console.log('Callback onPasteStart:' ,params);
+    },
+    onPasteEnd: function (params) {
+        console.log('Callback onPasteEnd:' ,params);
     },
     onGridReady: function (event) {
         console.log('Callback onGridReady: api = ' + event.api);
@@ -391,6 +402,33 @@ var defaultCols = [
                 // pivotIndex: 1,
                 // rowGroupIndex: 1,
                 enableRowGroup: true,
+                // colSpan: function(params) {
+                //     if (params.data && params.data.country==='Ireland') {
+                //         return 2;
+                //     } else if (params.data && params.data.country==='France') {
+                //         return 3;
+                //     } else {
+                //         return 1;
+                //     }
+                // },
+                // cellStyle: function(params) {
+                //     if (params.data && params.data.country==='Ireland') {
+                //         return {backgroundColor: 'red'};
+                //     } else if (params.data && params.data.country==='France') {
+                //         return {backgroundColor: 'green'};
+                //     } else {
+                //         return null;
+                //     }
+                // },
+                // rowSpan: function(params) {
+                //     if (params.data && params.data.country==='Ireland') {
+                //         return 2;
+                //     } else if (params.data && params.data.country==='France') {
+                //         return 3;
+                //     } else {
+                //         return 1;
+                //     }
+                // },
                 enablePivot: true,
                 cellEditor: 'agRichSelectCellEditor',
                 cellEditorParams: {
@@ -657,12 +695,12 @@ function createRowItem(row, colCount) {
         bought: booleanValues[row % booleanValues.length]
     };
 
-    rowItem.bankBalance = ((Math.round(pseudoRandom() * 10000000)) / 100) - 3000;
+    rowItem.bankBalance = (Math.round(pseudoRandom() * 100000)) - 3000;
     rowItem.rating = (Math.round(pseudoRandom() * 5));
 
     var totalWinnings = 0;
     months.forEach(function (month) {
-        var value = ((Math.round(pseudoRandom() * 10000000)) / 100) - 20;
+        var value = (Math.round(pseudoRandom() * 100000)) - 20;
         rowItem[month.toLocaleLowerCase()] = value;
         totalWinnings += value;
     });
