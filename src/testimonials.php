@@ -27,73 +27,220 @@ meta_and_links("ag-Grid: Customer Testimonials", "ag-Grid Javascript Grid Testim
         At ag-Grid, we love what we are doing. What does matter though is that our users love it, too.
     </p>
 
-    <blockquote>
-        <p>We’re using ag-Grid as a major component in our enterprise analytics and reporting product and it’s incredible. Prior to ag-Grid, we tried jqGrid, jqxGrid, DataTables, and SlickGrid, which all have their strong points, but we eventually ran into a wall with certain features. ag-Grid’s grouping, aggregation, filtering, and all-around flexibility allowed us to quickly integrate it into our product. And, the performance is truly awesome!</p>
-        <footer>
-            Andrew Taft
-            <span class="position">Head of Product Development at Insight Technology Group</span>
-        </footer>
-    </blockquote>
 
-    <blockquote>
-        <p>We love ag-Grid for its simple integration, blazing-fast performance, and friendly community.</p>
-        <footer>
-            Lucas Val
-            <span class="position">VP of Product Development at Hexonet Services Inc</span>
-        </footer>
-    </blockquote>
+ <div id="stage-testimonials">
+        <section>
+            <div>
+                <img src="_assets/customers/robin-cote.jpg" alt="Andrew Taft">
+                <div>
+                    <blockquote>
+                        <p>Remarkable speed and extensibility, ag-Grid is the best web feature-rich BI tool on the market.</p>
 
-    <blockquote>
-        <p>Remarkable speed and extensibility, ag-Grid is the best web feature-rich BI tool on the market.</p>
-        <footer>
-            Robin Cote
-            <span class="position">Solutions Architect, Investment Solutions Group, Healthcare of Ontario Pension Plan</span>
-        </footer>
-    </blockquote>
+                        <footer>
+                            <strong>Robin Cote</strong>
+                            <span class="position">Solutions Architect, Investment Solutions Group, Healthcare of Ontario Pension Plan</span>
+                        </footer>
+                    </blockquote>
+                </div>
+            </div>
 
-    <blockquote>
-        <p>I'm so glad you made ag-Grid!  Finally, someone has done it right.  I started using Google's Table visualizations, then tried dataTables.net and then js-Grid before I discovered your product.  Your design and implementation is brilliant.</p>
-        <footer>
-            Graham Smith
-            <span class="position">United Healthcare Workers West</span>
-        </footer>
-    </blockquote>
+            <div>
+                <img src="_assets/customers/andrew-taft.jpg" alt="Andrew Taft">
+                <div>
+                    <blockquote>
+                        <p>We’re using <strong>ag-Grid</strong> as a major component in our enterprise analytics and reporting product and it’s incredible. Prior to <strong>ag-Grid</strong>, we tried jqGrid, jqxGrid, DataTables, and SlickGrid, which all have their strong points, but we eventually ran into a wall with certain features. <br><br>
+                            <strong>ag-Grid</strong>’s grouping, aggregation, filtering, and all-around flexibility allowed us to quickly integrate it into our product. And, the performance is truly awesome!</p>
 
-    <blockquote>
-        <p>For those who are just checking into this project, stop looking at others and start using agGrid.
-            This is an amazing piece of work and the api is so deep, you will be thrilled to find out all it is capable of doing.
-            Thanks to @ceolter for his efforts, you have helped improve our application with agGrid.</p>
-        <footer>
-            Mike Erickson
-            <span class="position">Code Dungeon</span>
-        </footer>
-    </blockquote>
+                        <footer>
+                            <!--img src="./assets/customers/andrew-taft.jpg" alt="Andrew Taft" /-->
+                            <strong>Andrew Taft</strong> 
+                            <span class="position">Head of Product Development at Insight Technology Group</span> 
+                        </footer>
+                    </blockquote>
+                </div>
+            </div>
 
-    <blockquote>
-        <p>We just made the move from Kendo to ag-grid and we love it. It’s fast and very flexible.</p>
-        <footer>
-            Jason Boorn
-            <span class="position">Senior Architect, Roobricks</span>
-        </footer>
-    </blockquote>
+            <div>
+                <img src="_assets/customers/jason-boorn.jpg" alt="Jason Boorn">
 
-    <blockquote>
-        <p>I just wanted to say thank you for all the hard work you have put into ag-Grid.  I have been using the free version for about a year and have to say it is definitely the best grid framework out there.</p>
-        <footer>
-            Jordan Berry
-            <span class="position">CTO / Co-Founder, Interloop</span>
-        </footer>
-    </blockquote>
+                <div>
+                    <blockquote>
+                        <p>We just made the move from Kendo to ag-Grid and we love it. It’s fast and very flexible.</p>
 
-    <blockquote>
-        <p>ag-Grid is one of the best Grids I have ever worked with. In spite of being feature rich it is still one of the fastest grids I have ever used. This grid will be an essential part of my tool kit especially when working with extremely large datasets.</p>
-        <footer>
-            Zach Lewis
-            <span class="position">Senior Software Developer, Nutraceutical</span>
-        </footer>
-    </blockquote>
+                        <footer>
+                            <strong>Jason Boorn</strong>
+                            <span class="position">Senior Architect, Roobricks</span>
+                        </footer>
+                    </blockquote>
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+    <hr>
+
+     <div id="stage-testimonials">
+        <section>
+            <div>
+                <img src="_assets/customers/Lars-Hadidi.jpg" alt="Lars Hadidi">
+                <div>
+                    <blockquote>
+                        <p>Ag-Grid offers a rich set of features which won’t crash when activated together. It has fair licensing and a great performance.</p>
+
+                        <footer>
+                            <strong>Lars Hadidi</strong>
+                            <span class="position">Researcher, Johannes Gutenberg University Mainz</span>
+                        </footer>
+                    </blockquote>
+                </div>
+            </div>
+
+            <div>
+                <img src="_assets/customers/Karim-Helal.jpg" alt="Karim Helal">
+                <div>
+                    <blockquote>
+                        <p>It is the fastest grid we've seen and the fact that it's being actively worked on means it won't go "dead" anytime soon. It's made adding powerful grids easy and quick, making our SaaS much better than it could have been before.</p>
+
+                        <footer>
+                            <!--img src="./assets/customers/andrew-taft.jpg" alt="Andrew Taft" /-->
+                            <strong>Karim Helal</strong> 
+                            <span class="position">Co-Founder, CEO, Protenders</span> 
+                        </footer>
+                    </blockquote>
+                </div>
+            </div>
+
+            <div>
+                <img src="_assets/customers/Shane-Walters2.jpg" alt="Shane Walters">
+
+                <div>
+                    <blockquote>
+                        <p>No doubt that ag-Grid is the best Javascript grid. It's fast, flexible, and has a good API.</p>
+
+                        <footer>
+                            <strong>Shane Walters</strong>
+                            <span class="position">CTO, Single Tree Tech</span>
+                        </footer>
+                    </blockquote>
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+    <hr>
+
+         <div id="stage-testimonials">
+        <section>
+            <div>
+                <img src="_assets/customers/Scott-Carpenter.jpg" alt="Scott Carpenter">
+                <div>
+                    <blockquote>
+                        <p>    Performance of ag grid is amazing. Its fast and smooth. APIs are easy to use and developer friendly. ag-grid is improving and we can see they are constantly rolling out new versions with bug fixes and enhanced features</p>
+
+                        <footer>
+                            <strong>Scott Carpenter</strong>
+                            <span class="position">Cloud Innovation Manager, Fugro</span>
+                        </footer>
+                    </blockquote>
+                </div>
+            </div>
+
+            <div>
+                <img src="_assets/customers/Rony-Liderman2.jpg" alt="Rony Liderman">
+                <div>
+                    <blockquote>
+                        <p>The most full-featered wel-maintened, performant grid solution out there</p>
+
+                        <footer>
+                            <!--img src="./assets/customers/andrew-taft.jpg" alt="Andrew Taft" /-->
+                            <strong>Rony Liderman</strong> 
+                            <span class="position">Software Development Engineer, Microsoft</span> 
+                        </footer>
+                    </blockquote>
+                </div>
+            </div>
+
+            <div>
+                <img src="_assets/customers/Ayelet-Cohen.jpg" alt="Ayelet Cohen">
+
+                <div>
+                    <blockquote>
+                        <p>When we were looking for a grid solution for our Web App, we had a lot of demands in out mind.
+At first it seemed ag-Grid was to true to be  true, and it lived up to the expectation!
+
+First of all its is very customisable,you can play and change every element in the grid with ease.
+The filters/sorting/grouping/searching are working so fast on large data (we tested up to 80k rows), just like magic.
+
+AG-Grid has made my life as a developer a lot easier 
+</p>
+
+                        <footer>
+                            <strong>Ayelet Cohen</strong>
+                            <span class="position">Front End Developer, Indegy</span>
+                        </footer>
+                    </blockquote>
+                </div>
+            </div>
 
 
+
+        </section>
+    </div>
+
+    <hr>
+
+    <div id="stage-testimonials">
+        <section>
+            <div>
+                <img src="_assets/customers/Lucas-Val.jpg" alt="Lucas Val">
+                <div>
+                    <blockquote>
+                        <p>We love <strong>ag-Grid</strong> for its simple integration, blazing-fast performance, and friendly community.</p>
+
+                        <footer>
+                            <strong>Lucas Val</strong>
+                            <span class="position">VP of Product Development at Hexonet Services Inc</span>
+                        </footer>
+                    </blockquote>
+                </div>
+            </div>
+
+            <div>
+                <img src="_assets/customers/Jordan-Berry.jpg" alt="Jordan Berry">
+                <div>
+                    <blockquote>
+                        <p>I just wanted to say thank you for all the hard work you have put into ag-Grid. I have been using the free version for about a year and have to say it is definitely the best grid framework out there.</p>
+
+                        <footer>
+                            <!--img src="./assets/customers/andrew-taft.jpg" alt="Andrew Taft" /-->
+                            <strong>Jordan Berry</strong> 
+                            <span class="position">CTO / Co-Founder, Interloop</span> 
+                        </footer>
+                    </blockquote>
+                </div>
+            </div>
+
+            <div>
+                <img src="_assets/customers/Zachary-Lewis.jpg" alt="Zachary Lewis">
+
+                <div>
+                    <blockquote>
+                        <p>ag-Grid is one of the best Grids I have ever worked with. In spite of being feature rich it is still one of the fastest grids I have ever used. This grid will be an essential part of my tool kit especially when working with extremely large datasets.</p>
+
+                        <footer>
+                            <strong>Zachary Lewis</strong>
+                            <span class="position">Senior Software Developer, Nutraceutical</span>
+                        </footer>
+                    </blockquote>
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+<div>
     <h2>Add Your Own Testimonial</h2>
     <p>
         If you want to share your experience with ag-Grid, please send us your testimonial to

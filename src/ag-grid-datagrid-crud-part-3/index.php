@@ -92,7 +92,7 @@ ng serve
 
             <p>You can now navigate to <code>http://localhost:4200/</code> and see the results of the scaffolding:</p>
 
-            <img src="angular-cli-default.png"
+            <img src="angular-cli-default.png" alt="Angular CLI" 
                  style="border: solid 1px lightgrey;border-radius: 5px;width: 100%;margin-bottom: 15px">
 
             <h2>Development</h2>

@@ -455,7 +455,7 @@ if (process.env.ENV === 'production') {
 
     <p>If we now run our application with the above code we will see this:</p>
 
-    <img src="../images/seed.png" style="width: 100%">
+    <img src="../images/seed.png" style="width: 100%" alt="Grid Example">
 
     <h2>Override ag-Grid CSS</h2>
 
