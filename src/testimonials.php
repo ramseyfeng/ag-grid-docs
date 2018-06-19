@@ -28,7 +28,7 @@ meta_and_links("ag-Grid: Customer Testimonials", "ag-Grid Javascript Grid Testim
     </p>
 
 
- <div id="stage-testimonials">
+ <div id="stage-testimonials" style="margin-top: -65px">
         <section>
             <div>
                 <img src="_assets/customers/robin-cote.jpg" alt="Andrew Taft">
@@ -48,7 +48,7 @@ meta_and_links("ag-Grid: Customer Testimonials", "ag-Grid Javascript Grid Testim
                 <img src="_assets/customers/andrew-taft.jpg" alt="Andrew Taft">
                 <div>
                     <blockquote>
-                        <p>We’re using <strong>ag-Grid</strong> as a major component in our enterprise analytics and reporting product and it’s incredible. Prior to <strong>ag-Grid</strong>, we tried jqGrid, jqxGrid, DataTables, and SlickGrid, which all have their strong points, but we eventually ran into a wall with certain features. <br><br>
+                        <p>
                             <strong>ag-Grid</strong>’s grouping, aggregation, filtering, and all-around flexibility allowed us to quickly integrate it into our product. And, the performance is truly awesome!</p>
 
                         <footer>
@@ -78,19 +78,20 @@ meta_and_links("ag-Grid: Customer Testimonials", "ag-Grid Javascript Grid Testim
         </section>
     </div>
 
-    <hr>
+    <hr style="margin-top: -20px">
 
-     <div id="stage-testimonials">
+     <div id="stage-testimonials" style="margin-top: -30px">
         <section>
-            <div>
-                <img src="_assets/customers/Lars-Hadidi.jpg" alt="Lars Hadidi">
+   <div>
+                <img src="_assets/customers/Rony-Liderman2.jpg" alt="Rony Liderman">
                 <div>
                     <blockquote>
-                        <p>Ag-Grid offers a rich set of features which won’t crash when activated together. It has fair licensing and a great performance.</p>
+                        <p>The most full-featered wel-maintened, performant grid solution out there</p>
 
                         <footer>
-                            <strong>Lars Hadidi</strong>
-                            <span class="position">Researcher, Johannes Gutenberg University Mainz</span>
+                            <!--img src="./assets/customers/andrew-taft.jpg" alt="Andrew Taft" /-->
+                            <strong>Rony Liderman</strong> 
+                            <span class="position">Software Development Engineer, Microsoft</span> 
                         </footer>
                     </blockquote>
                 </div>
@@ -106,57 +107,6 @@ meta_and_links("ag-Grid: Customer Testimonials", "ag-Grid Javascript Grid Testim
                             <!--img src="./assets/customers/andrew-taft.jpg" alt="Andrew Taft" /-->
                             <strong>Karim Helal</strong> 
                             <span class="position">Co-Founder, CEO, Protenders</span> 
-                        </footer>
-                    </blockquote>
-                </div>
-            </div>
-
-            <div>
-                <img src="_assets/customers/Shane-Walters2.jpg" alt="Shane Walters">
-
-                <div>
-                    <blockquote>
-                        <p>No doubt that ag-Grid is the best Javascript grid. It's fast, flexible, and has a good API.</p>
-
-                        <footer>
-                            <strong>Shane Walters</strong>
-                            <span class="position">CTO, Single Tree Tech</span>
-                        </footer>
-                    </blockquote>
-                </div>
-            </div>
-
-        </section>
-    </div>
-
-    <hr>
-
-         <div id="stage-testimonials">
-        <section>
-            <div>
-                <img src="_assets/customers/Scott-Carpenter.jpg" alt="Scott Carpenter">
-                <div>
-                    <blockquote>
-                        <p>    Performance of ag grid is amazing. Its fast and smooth. APIs are easy to use and developer friendly. ag-grid is improving and we can see they are constantly rolling out new versions with bug fixes and enhanced features</p>
-
-                        <footer>
-                            <strong>Scott Carpenter</strong>
-                            <span class="position">Cloud Innovation Manager, Fugro</span>
-                        </footer>
-                    </blockquote>
-                </div>
-            </div>
-
-            <div>
-                <img src="_assets/customers/Rony-Liderman2.jpg" alt="Rony Liderman">
-                <div>
-                    <blockquote>
-                        <p>The most full-featered wel-maintened, performant grid solution out there</p>
-
-                        <footer>
-                            <!--img src="./assets/customers/andrew-taft.jpg" alt="Andrew Taft" /-->
-                            <strong>Rony Liderman</strong> 
-                            <span class="position">Software Development Engineer, Microsoft</span> 
                         </footer>
                     </blockquote>
                 </div>
@@ -184,14 +134,12 @@ AG-Grid has made my life as a developer a lot easier
                 </div>
             </div>
 
-
-
         </section>
     </div>
 
-    <hr>
+    <hr style="margin-top: -20px">
 
-    <div id="stage-testimonials">
+    <div id="stage-testimonials" style="margin-top: -30px">
         <section>
             <div>
                 <img src="_assets/customers/Lucas-Val.jpg" alt="Lucas Val">
